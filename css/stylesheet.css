@@ -1,87 +1,87 @@
-.canh-giua {
-    text-align: center;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-header {}
-
-.slider {
-    background-color: red;
-    width: 100%;
-    height: 80%;
-}
-
-.menu {
-    background-color: black;
-    display: inline-block;
-    width: 100%;
-    height: 78px;
-    max-width: 1200px;
-}
-
-.menu:after {
-    content: ‘ ‘;
-    display: block;
-    clear: both;
-}
-
-.slider {
-    width: 100vw;
-    height: 80vh;
-}
-
-.logo {
-    float: left;
-    margin: 10px 0px 0px 10px;
-}
-
-.nav {
-    float: left;
-    margin-top: 30px;
-    margin: 30px 10px 10px 20px;
-}
-
-.search {
-    float: right;
-    padding: 30px 20px 0px 20px;
-    text-transform: uppercase;
-    border-left: 1px solid white;
-    height: 48px;
-    color: white;
-}
-
-.logo img {
-    height: 58px;
-}
-
-.list-items .item {
-    float: left;
-    margin-right: 20px;
-}
-
-.list-items:after {
-    content: ‘ ‘;
-    display: block;
-    clear: both;
-}
-
-.list-items {
-    list-style: none;
-    text-transform: uppercase;
-    padding: 0px;
-    margin: 0px;
-}
-
-.list-items .item a {
-    color: white;
-    text-decoration: none;
-}
-
 body {
-    padding: 0px;
-    margin: 0px;
+  padding: 0;
+  margin: 0;
 }
+
+header {
+  
+}
+
+.canh-giua {
+  text-align: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.canh-giua .menu {
+  display: inline-block;
+  background-color: black;
+  max-width: 1200px;
+  width: 100%;
+  height: 78px;
+}
+
+.canh-giua .menu:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* NAV */
+.canh-giua .menu .nav {
+  float: left;
+}
+
+.canh-giua .menu .nav .list-items {
+  list-style: none;
+}
+
+.canh-giua .menu .nav .list-items:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.canh-giua .menu .nav .list-items .item {
+  float: left;
+  margin-right: 20px;
+}
+
+.canh-giua .menu .nav .list-items .item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/* LOGO */
+.canh-giua .menu .logo {
+  background-color: red;
+  float: left;
+}
+.canh-giua .menu .logo img {
+  display: block;
+  height: 58px;
+}
+/* SEARCH */
+.canh-giua .menu .search-menu {
+  background-color: rgb(139, 42, 148);
+  float: right;
+  border-left: 1px dashed rgb(90, 90, 90);
+}
+/* SLIDER */
+.slider-banner {
+  height: 80vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.slider-banner img {}
+
+
+
+
+
+
+
