@@ -107,9 +107,9 @@ header {}
     padding: 0;
     margin: 0;
     list-style: none;
-    display: inline-block;
     max-width: 1200px;
     width: 100%;
+    display: inline-block;
 }
 
 .canh-giua-article {
@@ -150,4 +150,55 @@ header {}
 
 .middle {
     display: inline-block;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .footer-menu {
+    background-color: black;
+    max-width: 1200px;
+    height: 214px;
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* NAV-FOOTER */
+
+.footer .footer-menu .nav {
+    width: 100%;
+    float: left;
+}
+
+.footer .footer-menu .nav .footer-list-item {
+    list-style: none;
+    padding-top: 85px;
+    display: inline-block;
+}
+
+.footer .footer-menu .nav .footer-list-item .footer-item {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px:
+}
+
+.footer .footer-menu .nav:after {
+    content: ‘ ‘;
+    display: block;
+    clear: both;
+}
+
+.footer .footer-menu .nav .footer-list-item .footer-item a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
