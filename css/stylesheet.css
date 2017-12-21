@@ -98,7 +98,7 @@ body {
     text-align: center;
     color: antiquewhite;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 20px;
     font-family: Helvetica, sans-serif;
     line-height: 80px;
     margin-top: -84px;
@@ -170,64 +170,31 @@ body {
     padding: 0;
 }
 
-.main-content .content-list-item .content-item-a {
+.main-content .content-list-item:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-content .content-list-item .content-item {
     width: 600px;
     height: 600px;
     float: left;
     list-style: none;
-    background-color: blueviolet;
+    background-color: burlywood;
     position: relative;
-}
-
-.main-content .content-list-item .content-item-a:after {
-    content: '';
-    display: block;
-    clear: both;
 }
 
 .main-content .content-list-item .content-item-b {
-    width: 600px;
-    height: 600px;
-    float: left;
-    list-style: none;
-    background-color: palegreen;
-    position: relative;
-}
-
-.main-content .content-list-item .content-item-b:after {
-    content: '';
-    display: block;
-    clear: both;
+    background-color: brown;
 }
 
 .main-content .content-list-item .content-item-c {
-    width: 600px;
-    height: 600px;
-    float: left;
-    list-style: none;
-    background-color: rgb(0, 255, 21);
-    position: relative;
-}
-
-.main-content .content-list-item .content-item-c:after {
-    content: '';
-    display: block;
-    clear: both;
+    background-color: goldenrod;
 }
 
 .main-content .content-list-item .content-item-d {
-    width: 600px;
-    height: 600px;
-    float: left;
-    list-style: none;
-    background-color: rgb(255, 0, 55);
-    position: relative;
-}
-
-.main-content .content-list-item .content-item-d:after {
-    content: '';
-    display: block;
-    clear: both;
+    background-color: rosybrown;
 }
 
 .main-content .content-list-item .content-align {
@@ -240,8 +207,93 @@ body {
 
 .main-content .content-list-item .content-align .content-text-center {
     text-align: center;
-    line-height: 30px;
     text-transform: uppercase;
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: -50px;
+}
+
+.main-content .content-list-item .content-align .content-text-center .title {
+    margin-top: 20px;
+}
+
+.main-content .content-list-item .content-align .content-text-center .sub-title {
+    margin-top: 40px;
+}
+
+
+/* CHUA FOOTER */
+
+.footer-content {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.footer-content .social-list-item {
+    background-color: black;
+    width: 1200px;
+    height: 214px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-content .social-list-item .social-item {
+    display: inline-block;
+    margin-top: 107px;
+}
+
+.footer-content .social-list-item .social-item a {
+    color: brown;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* CHUA BUTTON-SLIDER */
+
+.main-slider-wrap .slider-list-item .slider-item .slider-text-center .button {
+    width: 274px;
+    height: 40px;
+    color: #f3e346;
+    border-radius: 5px;
+    border: 2px solid #f3e346;
+    display: inline-block;
+    line-height: 40px;
+}
+
+
+/* CHUA BUTTON CONTENT */
+
+.main-content .content-list-item .content-item .content-align .content-text-center .button-main {
+    display: inline-block;
+    width: 274px;
+    border-radius: 5px;
+    border: 2px solid #f3e346;
+    margin-top: 45px;
+}
+
+.main-content .content-list-item .content-item .content-align .content-text-center .button-main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main-content .content-list-item .content-item .content-align .content-text-center .button-main .button {
+    color: #f3e346;
+    float: left;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-content .content-list-item .content-item .content-align .content-text-center .button-main .arrow {
+    color: black;
+    float: right;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
